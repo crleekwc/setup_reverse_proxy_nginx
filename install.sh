@@ -3,7 +3,7 @@ sudo apt-get -y update && sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 
 # remove default site from sites enabled
-unlink /etc/nginx/sites-enabled/default
+sudo unlink /etc/nginx/sites-enabled/default
 
 echo 'Ready to configure, read the install.sh script for how-to'
 
